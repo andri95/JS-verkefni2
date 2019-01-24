@@ -1,12 +1,23 @@
 # JS-verkefni2
-//
+
+**1. Búðu til object með upplýsingar um þig...**
+
+**2. Notaðu for..in lykkjuna til að birta öll eigindin**
+
+**3. Bættu aðferð í objectið sem skilar streng með nafni og aldri**
+
+**4. Prentaðu út Nonni með console.log()**
+
+**5. Liður 8 í lesson 7**
+
 let breakfast = {
     name: "The Lumberjack",
     price: "$9.95",
     ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
 };
 
-//
+**6. liður 9 í lesson 7**
+
 var savingsAccount = {
     balance: 1000,
     interestRatePercent: 1,
@@ -28,7 +39,7 @@ var savingsAccount = {
 
 console.log(savingsAccount.printAccountSummary());
 
-//
+**7. liður 12 í lesson 7**
 var donuts = [
     { type: "Jelly", cost: 1.22 },
     { type: "Chocolate", cost: 2.45 },
@@ -43,11 +54,13 @@ donuts.forEach(function(skrifaUt){
     console.log(skrifaUt.type + " donuts cost $" + skrifaUt.cost + " each")
 });
 
-8. 
+**8. Eru öll eigindi í sömu röð og þeim var bætt í object?**
+
 Samkvæmt javascript.info eru eigindi í sömu röð og þau eru sett inn. Undantekningin er ef eigindin eru integer eigindi, þá er þeim raðað eftir stærð. Ekki er þeim þó raðað eins allstaðar. Tekið er fram að í USA kemur 1 fyrst en í Austurríki kemur hæsta tala fyrst.
 
-9. 
+**9. Útskýrðu hvað eftirfarandi kóði gerir:**
+
 Hér er notandi að copy-a objectinn user inn í breytuna admin. Þegar user er breytt breytist innihald admin og öfugt. Þó ef admin breytunni er eytt lifir user breytan ennþá. Mig minnti að þetta væri þannig að ef user er breytt breytist admin en ekki öfugt en þegar ég prufaði bæði í console breyttist á báða vegu.
 
-10.
+**10. Afhverju virkar eftirfarandi:**
 Const gerir það bara að verkum að "the variable identifier" (á erfitt með að koma þessu í íslensku) er ekki hægt að breyta,en það sem breytan inniheldur er hægt að breyta.
